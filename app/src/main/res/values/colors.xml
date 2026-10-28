@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyra_night">#FF0F1220</color>
+    <color name="keyra_indigo">#FF3D5AFE</color>
+    <color name="keyra_mint">#FF00BFA5</color>
+    <color name="keyra_surface">#FF181D38</color>
+    <color name="keyra_on_surface">#FFE4E6F5</color>
+    <color name="keyra_on_surface_variant">#FFA6ABC8</color>
+</resources>

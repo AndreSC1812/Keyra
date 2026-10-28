@@ -1,0 +1,195 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Keyra</string>
+
+    <!-- Actions -->
+    <string name="action_add_entry">New entry</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_copy_field">Copy %1$s</string>
+    <string name="action_copy_password_for">Copy password for %1$s</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_generate">Generate password</string>
+    <string name="action_hide_password">Hide password</string>
+    <string name="action_show_password">Show password</string>
+    <string name="action_lock">Lock vault</string>
+    <string name="action_regenerate">Regenerate</string>
+    <string name="action_save">Save</string>
+    <string name="action_use_password">Use this password</string>
+
+    <!-- Setup -->
+    <string name="setup_welcome_subtitle">Your passwords, encrypted on this device and never sent anywhere.</string>
+    <string name="setup_feature_offline">Fully offline, no internet permission</string>
+    <string name="setup_feature_keystore">Encrypted with the Android Keystore</string>
+    <string name="setup_feature_biometric">Unlock with your fingerprint or PIN</string>
+    <string name="setup_get_started">Create my vault</string>
+    <string name="setup_create_pin_title">Create a master PIN</string>
+    <string name="setup_create_pin_subtitle">Use 6 to 12 digits. Keyra cannot recover it if you forget it.</string>
+    <string name="setup_confirm_pin_title">Confirm your PIN</string>
+    <string name="setup_confirm_pin_subtitle">Enter the same PIN again.</string>
+    <string name="setup_change_pin">Choose a different PIN</string>
+    <string name="setup_error_pin_short">The PIN needs at least 6 digits</string>
+    <string name="setup_error_pin_long">The PIN can have up to 12 digits</string>
+    <string name="setup_error_pin_simple">Avoid repeated or consecutive digits</string>
+    <string name="setup_error_pin_mismatch">The PINs don\'t match. Try again.</string>
+    <string name="setup_biometric_title">Unlock with your fingerprint</string>
+    <string name="setup_biometric_subtitle">Your fingerprint unlocks a hardware-backed key. If a new fingerprint is added, Keyra will ask for your PIN again.</string>
+    <string name="setup_biometric_unavailable">No strong biometrics are enrolled on this device. You can use your PIN and enable it later in Settings.</string>
+    <string name="setup_biometric_enable">Enable fingerprint</string>
+    <string name="setup_biometric_skip">Not now</string>
+    <string name="setup_finish">Open my vault</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_enable_title">Enable fingerprint unlock</string>
+    <string name="biometric_enable_subtitle">Confirm to protect the vault key</string>
+    <string name="biometric_unlock_title">Unlock Keyra</string>
+    <string name="biometric_unlock_subtitle">Use your fingerprint to open the vault</string>
+    <string name="biometric_use_pin">Use PIN</string>
+    <string name="biometric_error_generic">Biometric authentication failed</string>
+
+    <!-- Unlock -->
+    <string name="unlock_title">Vault locked</string>
+    <string name="unlock_subtitle">Enter your master PIN</string>
+    <string name="unlock_use_biometric">Use fingerprint</string>
+    <string name="unlock_error_wrong_pin">Wrong PIN</string>
+    <string name="unlock_error_biometric_changed">Biometrics changed on this device. Unlock with your PIN and enable it again in Settings.</string>
+    <string name="unlock_locked_out">Too many attempts. Try again in %1$d s</string>
+    <plurals name="unlock_attempts_left">
+        <item quantity="one">Wrong PIN. %1$d attempt left before a timeout</item>
+        <item quantity="other">Wrong PIN. %1$d attempts left before a timeout</item>
+    </plurals>
+    <string name="pin_delete">Delete digit</string>
+    <string name="pin_confirm">Confirm PIN</string>
+
+    <!-- Vault -->
+    <string name="vault_search_hint">Search by name, user or website</string>
+    <string name="vault_empty_title">Your vault is empty</string>
+    <string name="vault_empty_subtitle">Add your first login with the button below. Everything stays encrypted on this device.</string>
+    <string name="vault_no_results">No entries match your search</string>
+    <string name="vault_entry_has_issues">Weak or reused password</string>
+    <string name="copied_password">Password copied. It will be cleared in 30 seconds.</string>
+    <string name="copied_generic">Copied to the clipboard</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_login">Logins</string>
+    <string name="category_email">Email</string>
+    <string name="category_social">Social</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_work">Work</string>
+    <string name="category_other">Other</string>
+
+    <!-- Entry -->
+    <string name="field_title">Title</string>
+    <string name="field_username">Username or email</string>
+    <string name="field_password">Password</string>
+    <string name="field_url">Website</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_category">Category</string>
+    <string name="error_required">Required</string>
+    <string name="edit_new_title">New entry</string>
+    <string name="edit_title">Edit entry</string>
+    <string name="delete_entry_title">Delete this entry?</string>
+    <string name="delete_entry_message">It will be removed from the vault. This cannot be undone.</string>
+    <string name="warning_weak_password">This password is weak. Consider generating a new one.</string>
+    <plurals name="warning_reused_password">
+        <item quantity="one">The same password is used in %1$d other entry.</item>
+        <item quantity="other">The same password is used in %1$d other entries.</item>
+    </plurals>
+
+    <!-- Strength -->
+    <string name="strength_very_weak">Very weak</string>
+    <string name="strength_weak">Weak</string>
+    <string name="strength_fair">Fair</string>
+    <string name="strength_strong">Strong</string>
+    <string name="strength_very_strong">Very strong</string>
+    <string name="strength_label_bits" tools:ignore="PluralsCandidate">%1$s · %2$d bits</string>
+    <string name="strength_description">Password strength: %1$s</string>
+
+    <!-- Generator -->
+    <string name="generator_title">Password generator</string>
+    <string name="generator_length">Length</string>
+    <string name="generator_uppercase">Uppercase (A–Z)</string>
+    <string name="generator_lowercase">Lowercase (a–z)</string>
+    <string name="generator_digits">Numbers (0–9)</string>
+    <string name="generator_symbols">Symbols (!@#$)</string>
+
+    <!-- Security health -->
+    <string name="health_title">Security health</string>
+    <string name="health_safe">Safe</string>
+    <string name="health_weak">Weak</string>
+    <string name="health_reused">Reused</string>
+    <string name="health_reused_section">Reused passwords</string>
+    <string name="health_weak_section">Weak passwords</string>
+    <string name="health_all_good">All your passwords look good</string>
+    <string name="health_no_entries">Add entries to see their security report</string>
+    <plurals name="health_reused_group">
+        <item quantity="one">Shared by %1$d entry</item>
+        <item quantity="other">Shared by %1$d entries</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_security">Security</string>
+    <string name="settings_section_autofill">Autofill</string>
+    <string name="settings_section_backup">Backup</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_biometric">Fingerprint unlock</string>
+    <string name="settings_biometric_subtitle">Invalidated if a new fingerprint is enrolled</string>
+    <string name="settings_biometric_enabled">Fingerprint unlock enabled</string>
+    <string name="settings_auto_lock">Auto-lock after inactivity</string>
+    <string name="settings_lock_on_background">Lock when leaving the app</string>
+    <string name="settings_lock_on_background_subtitle">Locks the vault as soon as Keyra goes to the background</string>
+    <string name="settings_lock_now">Lock now</string>
+    <string name="settings_lock_now_subtitle">Close the vault and wipe the key from memory</string>
+    <string name="settings_autofill">Autofill service</string>
+    <string name="settings_autofill_enabled">An autofill service is active. Tap to change it.</string>
+    <string name="settings_autofill_disabled">Fill logins in other apps with Keyra</string>
+    <string name="settings_export">Export encrypted backup</string>
+    <string name="settings_export_subtitle">Save every entry to a file protected with a password</string>
+    <string name="settings_import">Import backup</string>
+    <string name="settings_import_subtitle">Restore entries from a Keyra backup file</string>
+    <string name="settings_backup_invalid">Wrong password or invalid backup file</string>
+    <string name="settings_backup_io_error">The file could not be read or written</string>
+    <plurals name="settings_export_success">
+        <item quantity="one">%1$d entry exported</item>
+        <item quantity="other">%1$d entries exported</item>
+    </plurals>
+    <plurals name="settings_import_success">
+        <item quantity="one">%1$d new entry imported</item>
+        <item quantity="other">%1$d new entries imported</item>
+    </plurals>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_version">Version</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">Follow system</string>
+    <plurals name="minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+
+    <!-- Backup -->
+    <string name="backup_password">Backup password</string>
+    <string name="backup_password_confirm">Repeat password</string>
+    <plurals name="backup_password_min">
+        <item quantity="one">At least %1$d character</item>
+        <item quantity="other">At least %1$d characters</item>
+    </plurals>
+    <string name="backup_password_export_message">The backup is encrypted with AES-256. You will need this password to restore it, on this or any other device.</string>
+    <string name="backup_password_import_message">Enter the password used when the backup was created.</string>
+
+    <!-- Autofill -->
+    <string name="autofill_unlock_title">Keyra</string>
+    <string name="autofill_unlock_subtitle">Unlock to choose a login</string>
+    <string name="autofill_pick_title">Choose a login</string>
+    <string name="autofill_pick_subtitle">To fill in %1$s</string>
+    <string name="autofill_suggested">Suggested</string>
+    <string name="autofill_all">All entries</string>
+    <string name="autofill_service_label">Keyra</string>
+</resources>
